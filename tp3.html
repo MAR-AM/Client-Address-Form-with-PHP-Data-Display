@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire Adresse Client</title>
+    <style>
+        form{
+            width: 400px;
+        }
+        form input {
+            height: 25px;
+            border-radius: 12px;
+            width: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .button{
+            width: 400px;
+            height: 34px;
+            border: solid 1px aqua;
+            border-radius: 12px;
+            background-color: rgb(0, 157, 255);
+            box-shadow: 2px 2px 10px 1px aqua;
+            font-weight: bolder;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>Formulaire Adresse Client</h2>
+    <form action="tp3.php" method="post" >
+        <fieldset >
+            <legend>Adresse client</legend>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required><br>
+
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" required><br>
+
+            <label for="adresse">Adresse :</label>
+            <input type="text" id="adresse" name="adresse" required><br>
+
+            <label for="ville">Ville :</label>
+            <input type="text" id="ville" name="ville" required><br>
+
+            <label for="code_postal">Code postal :</label>
+            <input type="text" id="code_postal" name="code_postal" required><br>
+            <input type="submit" value="Soumettre" class="button">
+            
+        </fieldset>
+    </form>
+</body>
+</html>
