@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="tp2.php" method="post">
+        <fieldset>
+            <legend><b> coordonnees </b></legend>
+            <label for='nom' ><b>Nom : </b></label>
+            <input style="width: 300px;height: 35px;" type="text" name="nom" id="nom" maxlength="20" placeholder="Votre nom" required><br><br>
+            <label for='prenom'><b>Prénom: </b></label>
+            <input style="width: 300px;height: 35px;" type="text" name="prenom" id="prenom" maxlength="20" placeholder="Votre prénom" required><br><br>
+           
+        
+            <b style="padding-top: 10px;">genre :</b> 
+            <input style="margin-left: 110px;" type="radio" id="male" name="sexe" value="Masculin">
+            <label for="male">Homme</label><br>
+            <input style="margin-left: 160px;"  type="radio" id="female" name="sexe" value="Féminin">
+            <label for="female">Femme</label><br><br>
+           
+            <b>Cours :</b>
+            <select  id="menu" name="cour" style="margin-left: 100px; width: 150px;height: 35px;" placeholder="Votre Pays" >
+                <option value="simple">simple</option>
+                <option value="moyen">moyen</option>
+                <option value="difficile">difficile</option>
+            </select><br><br>
+
+            <input type="submit" value="yeeeeeep">
+    
+         </fieldset> 
+    </form>
+</body>
+</html>
