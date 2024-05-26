@@ -1,2 +1,2 @@
 # Client-Address-Form-with-PHP-Data-Display
-This HTML and PHP project consists of two main parts: a client address form and a data display table. 
+This HTML and PHP project consists of two main parts: a client address form and a data display table.The first part is an HTML form where users can input their name, surname, address, city, and postal code. The form uses simple CSS styling for better user experience. Upon submission, the form data is sent via POST method to a PHP script that dynamically generates an HTML table displaying the submitted data. This project demonstrates the basic interaction between HTML forms and PHP for handling and displaying user input.
